@@ -1,0 +1,7 @@
+CREATE TABLE imc (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  peso FLOAT NOT NULL,
+  altura FLOAT NOT NULL,
+  imc FLOAT NOT NULL,
+  classificacao VARCHAR(255) NOT NULL
+);
